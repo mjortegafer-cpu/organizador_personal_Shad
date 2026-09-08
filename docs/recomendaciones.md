@@ -1,0 +1,3 @@
+-recomiendo optimizar
+-eficiecia de tareas
+-mucho delay
