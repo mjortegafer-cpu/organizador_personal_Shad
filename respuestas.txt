@@ -1,0 +1,56 @@
+ 1. Diferencia entre repositorio local y remoto  
+"Local": está en tu computadora, donde trabajas y guardas cambios.  
+"Remoto": está en un servidor (ej. GitHub), accesible para colaborar y compartir.  
+
+
+
+ 2. Diferencia entre commit y push  
+"Commit": registra cambios en el repositorio local, como una “foto” del proyecto.  
+"Push": envía esos commits al repositorio remoto para compartirlos.  
+
+
+
+ 3. ¿Para qué sirve `.gitignore`?  
+Indica qué archivos o carpetas no deben ser rastreados ni subidos al repositorio (ej. configuraciones locales, archivos temporales, `.venv`).  
+
+
+
+ 4. ¿Por qué `.venv` no se almacena normalmente en GitHub?  
+Porque contiene dependencias específicas del sistema y ocupa mucho espacio. Lo correcto es compartir solo `requirements.txt` para que otros puedan recrear el entorno.  
+
+
+
+ 5. ¿Para qué sirve `requirements.txt`?  
+Lista las dependencias del proyecto. Permite que otros instalen las mismas librerías con:  
+```bash
+pip install -r requirements.txt
+```  
+
+
+
+ 6. Diferencia entre fork y clone  
+"Fork": copia un repositorio en tu cuenta de GitHub para colaborar.  
+"Clone": descarga un repositorio (original o fork) a tu computadora.  
+
+
+
+ 7. ¿Por qué conviene crear una rama antes de modificar el proyecto?  
+Porque separa tus cambios de la rama principal (`main`). Así evitas afectar el código estable y puedes trabajar de forma ordenada.  
+
+
+
+ 8. ¿Qué función cumple un Pull Request?  
+Es la solicitud para integrar tus cambios en el repositorio original. Permite revisión, comentarios y aprobación antes del merge.  
+
+
+
+ 9. ¿Qué se revisa antes de realizar un merge?  
+Archivos modificados.  
+Diferencias con la rama principal.  
+Calidad del código y documentación.  
+Que los cambios cumplan con lo solicitado.  
+
+
+
+ 10. ¿Por qué, después del merge en GitHub, se utiliza `git pull` en el repositorio local?  
+Porque el repositorio remoto ya tiene los cambios aprobados. Con `git pull` sincronizas tu repositorio local para que quede actualizado con la versión más reciente.  
