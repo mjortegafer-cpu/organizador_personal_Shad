@@ -4,3 +4,4 @@ Organisador personal
 • Pasos de instalación 
 • Dependencias 
 • Autor: Mateo J.
+Colaboracion : Matias 
